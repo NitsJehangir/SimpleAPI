@@ -12,7 +12,7 @@ namespace SimpleAPI.Test
         public void TestName()
         {
             var returnValue = forecastController.Get();
-            Assert.Equal("Jehangir",returnValue);
+            Assert.Equal("hello",returnValue);
         }
         [Fact]
         public void Test1()
